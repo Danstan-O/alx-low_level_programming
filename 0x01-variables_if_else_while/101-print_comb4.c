@@ -12,7 +12,7 @@ for (i = 0; i < 8; i++)
 for (j = 0; j < 9; j++)
 for (k = 0; k < 10; k++)
 {
-if (i != j && j > i && j !=k && k > j)
+if (i != j && j > i && j != k && k > j)
 {
 putchar((i) + '0');
 putchar((j) + '0');
