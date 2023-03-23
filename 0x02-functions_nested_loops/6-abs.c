@@ -6,6 +6,12 @@
  */
 int abs(int num)
 {
-int abs_num = abs(num);
-return (abs_num);
+if (num >= 0)
+{
+return (num);
+}
+else
+{
+return (-num);
+}
 }
