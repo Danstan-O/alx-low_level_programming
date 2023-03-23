@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * abs - our entry point
+ * _abs - our entry point
  * @num: the return value
  * Return: returns o
  */
-int abs(int num)
+int _abs(int num)
 {
 if (num >= 0)
 {
