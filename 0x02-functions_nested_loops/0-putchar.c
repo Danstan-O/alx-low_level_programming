@@ -1,4 +1,4 @@
-#include "./main.h"
+#include "main.h"
 /**
  * main - the major entry point
  * Return: returns 0
