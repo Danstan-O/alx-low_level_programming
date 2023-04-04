@@ -5,15 +5,6 @@
  * jack_bauer - the major entry point
  * Return: returns 0
  */
-int main(void)
-{
-jack_bauer();
-return (0);
-}
-
-/**
- * jack_bauer - the major entry point
- */
 void jack_bauer(void)
 {
 int m;
