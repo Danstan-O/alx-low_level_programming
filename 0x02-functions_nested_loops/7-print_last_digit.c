@@ -3,7 +3,7 @@
 /**
  * print_last_digit - prints the 0
  * @n: takes in an integer argument
- * Return: returns 0
+ * Return: returns the last digit to be printed
  */
 int print_last_digit(int n)
 {
