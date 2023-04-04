@@ -11,7 +11,7 @@ int minutes;
 int hr;
 for (hr = 0; hr < 24; hr++)
 {
-for (minutes= 0; minutes < 60; minutes++)
+for (minutes = 0; minutes < 60; minutes++)
 {
 _putchar((hr / 10) + '0');
 _putchar((hr % 10) + '0');
