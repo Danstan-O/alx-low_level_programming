@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_last_digit - prints the 0
  * @n: takes in an integer argument
@@ -12,6 +13,6 @@ if (n < 0)
 {
 last_digit *= -1;
 }
-_putchar(last_digit + last_digit);
+_putchar(last_digit + '0');
 return (0);
 }
