@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - the major entry point
  * jack_bauer - the major entry point
  * Return: returns 0
  */
