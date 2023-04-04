@@ -4,24 +4,21 @@
  * jack_bauer - the major entry point
  * Return: returns 0
  */
+
 void jack_bauer(void)
 {
-int m;
-int h;
-for (m = 0; m < 60; m++)
+int minutes;
+int hr;
+for (hr = 0; hr < 24; hr++)
 {
-if (m == 5)
+for (minutes= 0; minutes < 60; minutes++)
 {
-for (h = 0; h < 24; h++)
-{
-if (h == 23 && m == 59)
-{
-break;
-}
-}
-}
-}
-_putchar(h + '0');
+_putchar((hr / 10) + '0');
+_putchar((hr % 10) + '0');
 _putchar(':');
-_putchar(m + '0');
+_putchar(minutes / 10 + '0');
+_putchar((minutes % 10) + '0');
+_putchar('\n');
+}
+}
 }
