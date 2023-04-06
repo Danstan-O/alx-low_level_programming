@@ -6,6 +6,7 @@
  *
  * Return: Always 0.
  */
+int factorial(int i);
 int main(void)
 {
     int r;
