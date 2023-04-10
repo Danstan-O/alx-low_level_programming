@@ -15,7 +15,7 @@ int i;
 int mul = 1;
 int num1, num2;
 
-if (argc <= 2)
+if (argc <= 2 || argc >= 4)
 {
 printf("Error\n");
 return (1);
