@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * sum - the summation point
+ * main - the summation point
  * @argc: The argument name
  * @argv: the argument parameters
  * Return: returns the sum of the total arguments
@@ -26,7 +26,7 @@ for (i = 1; i < 2; i++)
 {
 num1 = atoi(argv[1]);
 num2 = atoi(argv[2]);
-mul = num1 * num2;
+mul = num1 *num2;
 printf("%d\n", mul);
 return (mul);
 }
