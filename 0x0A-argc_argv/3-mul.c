@@ -3,13 +3,13 @@
 #include "main.h"
 
 /**
- * main - the summation point
+ * mul - the summation point
  * @argc: The argument name
  * @argv: the argument parameters
  * Return: returns the sum of the total arguments
  */
 
-int main(int argc, char *argv[])
+int mul(int argc, char *argv[])
 {
 int i;
 int mul = 1;
