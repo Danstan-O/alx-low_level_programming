@@ -17,7 +17,7 @@ if (min > max)
 return (NULL);
 }
 
-check = malloc(sizeof(*check) * (max - min) + 1);
+check = malloc(sizeof(*check) * ((max - min) + 1));
 if (check == NULL)
 {
 return (NULL);
