@@ -23,7 +23,7 @@ if (check == NULL)
 return (NULL);
 }
 
-for (i = min; i <= max; i++, min++)
+for (i = min; min <= max; i++, min++)
 {
 check[i] = min;
 }
