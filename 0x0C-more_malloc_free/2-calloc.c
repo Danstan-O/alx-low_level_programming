@@ -12,9 +12,12 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 char *check;
 unsigned int i;
-
+if (nmemb == 0 || size == 0)
+{
+return (NULL);
+}
 check = malloc(size * nmemb);
-if (check == NULL || nmemb == 0 || size == 0)
+if (check == NULL)
 {
 return (NULL);
 }
