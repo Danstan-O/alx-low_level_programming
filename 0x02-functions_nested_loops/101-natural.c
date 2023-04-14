@@ -9,7 +9,7 @@
 int natural(int n);
 int main(void)
 {
-printf("%d\n", natural(1023));
+natural(1023);
 return (0);
 }
 
@@ -31,7 +31,6 @@ if (i % 3 == 0 || i % 5 == 0)
 {
 j = i + j;
 printf("%d\n", j);
-
 }
 }
 return (j);
