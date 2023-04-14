@@ -9,7 +9,7 @@
 int natural(int n);
 int main(void)
 {
-natural(65);
+natural(1023);
 return (0);
 }
 
@@ -24,7 +24,7 @@ int natural(int n)
 int i;
 int j = 0;
 
-for (i = 3; i <= n; i++)
+for (i = 1; i <= n; i++)
 {
 if (i % 3 == 0 || i % 5 == 0)
 
