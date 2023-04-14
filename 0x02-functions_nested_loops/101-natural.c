@@ -9,7 +9,7 @@
 int natural(int n);
 int main(void)
 {
-natural(1023);
+natural(65);
 return (0);
 }
 
