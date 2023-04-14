@@ -33,5 +33,5 @@ j = i + j;
 printf("%d\n", j);
 }
 }
-return (j);
+return (0);
 }
