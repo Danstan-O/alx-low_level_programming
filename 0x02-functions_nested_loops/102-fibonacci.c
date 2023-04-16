@@ -28,7 +28,7 @@ long int j, k, result;
 
 j = 1;
 k = 2;
-
+printf("%ld, %ld, ", j, k);
 for (i = 0; i <= n; i++)
 {
 if (i == n)
