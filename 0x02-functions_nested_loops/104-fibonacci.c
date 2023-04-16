@@ -6,7 +6,7 @@
  * @n: the input value
  */
 
-int fib(int n);
+int fib(unsigned int n);
 
 int main(void)
 {
@@ -21,9 +21,9 @@ return (0);
  */
 
 
-int fib(int n)
+int fib(unsigned int n)
 {
-unsigned int i;
+unsigned  int i;
 unsigned long int j, k, result;
 
 j = 1;
