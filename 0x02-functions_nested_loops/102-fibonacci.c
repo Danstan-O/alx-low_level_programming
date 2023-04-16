@@ -23,22 +23,27 @@ return (0);
 
 int fib(int n)
 {
-int i = 1, j = 2, result;
+int i;
+long int j, k, result;
+
+j = 1;
+k = 2;
 
 for (i = 0; i <= n; i++)
 {
 if (i == n)
 {
-result = i + j;
-j = result + i;
-printf("%d", result);
+result = k + j;
+
+printf("%ld", result);
 }
 else
 {
-result = i + j;
-j = j + i;
-result = j;
-printf("%d, ", result);
+result = j + k;
+
+printf("%ld, ", result);
+j = k;
+k = result;
 }
 }
 printf("\n");
