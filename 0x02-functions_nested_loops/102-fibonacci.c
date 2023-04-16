@@ -10,7 +10,7 @@ int fib(int n);
 
 int main(void)
 {
-fib(50);
+fib(47);
 return (0);
 }
 
