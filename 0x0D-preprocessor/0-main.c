@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include "0-object_like_macro.h"
+
+/**
+ * main - checks the code
+ * Return: returns a 0
+ */
+
+int main(void)
+{
+int s;
+s = 98 + SIZE;
+printf("%d\n", s);
+return (0);
+}
