@@ -15,8 +15,14 @@ unsigned int i;
 va_start(ap, n);
 for (i = 0; i < n; i++)
 {
-
+if (va_arg(ap, char*) == NULL)
+{
+printf("(nil)");
+}
+else
+{
 printf("%s", va_arg(ap, char*));
+}
 if (i != (n - 1) && separator != NULL)
 {
 printf("%s", separator);
