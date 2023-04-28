@@ -13,7 +13,7 @@ size_t n = 0;
 
 while (h)
 {
-if (h == NULL)
+if (!h)
 printf("[0] (nil)\n");
 else
 printf("[%u] %s\n", h->len, h->str);
