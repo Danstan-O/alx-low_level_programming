@@ -24,7 +24,10 @@ len++;
 endNode->str = strdup(str);
 endNode->len = len;
 endNode->next = NULL;
-
+if (!endNode)
+{
+return (NULL);
+}
 if (*head == NULL)
 {
 *head = endNode;
