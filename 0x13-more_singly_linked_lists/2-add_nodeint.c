@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * add_nodeint - adds a node 
+ * add_nodeint - adds a node
  * @head: our input
  * @n: our input variable
  * Return: returns a size_t.
