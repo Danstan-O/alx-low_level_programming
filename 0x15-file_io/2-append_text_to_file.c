@@ -11,7 +11,7 @@
 
 int append_text_to_file(const char *filename, char *text_content)
 {
-int fb, i, rwr;
+int fb, i, r;
 
 if (!filename)
 {
@@ -31,9 +31,9 @@ if (text_content)
 for (i = 0; text_content[i]; i++)
 ;
 
-rwr = write(fb, text_content, i);
+r = write(fb, text_content, i);
 
-if (rwr == -1)
+if (r == -1)
 {
 return (-1);
 }
