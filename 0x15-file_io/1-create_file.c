@@ -33,7 +33,7 @@ text_content = "";
 for (i = 0; text_content[i]; i++)
 ;
 
-r = write(fb, text_content,i);
+r = write(fb, text_content, i);
 
 if (r == -1)
 {
