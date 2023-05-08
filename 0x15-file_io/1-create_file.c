@@ -19,7 +19,8 @@ return (-1);
 }
 
 
-fb = open(filename, O_CREAT | O_TRUNC | O_WRONLY, 0060);
+fb = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
+
 if (fb == -1)
 {
 return (-1);
