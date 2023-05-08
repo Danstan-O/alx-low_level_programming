@@ -11,7 +11,7 @@
 
 int create_file(const char *filename, char *text_content)
 {
-int fb, i, r;
+int fb, i, rwr;
 
 if (!filename)
 {
@@ -33,9 +33,9 @@ text_content = "";
 for (i = 0; text_content[i]; i++)
 ;
 
-r = write(fb, text_content, i);
+rwr = write(fb, text_content, i);
 
-if (r == -1)
+if (rwr == -1)
 {
 return (-1);
 }
